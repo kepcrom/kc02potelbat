@@ -2,76 +2,14 @@
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
  *
  *= require_tree .
  *= require_self
  */
-
-html
-{
-    font-size:100%;
-    font-family: Verdana, sans-serif;
-}
-
-body
-{
-    margin:0px;
-    padding:0px;
-    background-color: #555;
-    color: #ccc;
-}
-
-h3
-{
-    display: block;
-    background-color: #888;
-    padding: .5rem;
-    color: #eee;
-    margin-top: 0px;
-}
-
-th, header
-{
-    background-color: #888;
-    color: #eee;
-    text-align: center;
-}
-
-label
-{
-    padding-left: .5em;
-}
-
-label span
-{
-    display: inline-block;
-    width:100%;
-    font-size: .75rem;
-    margin-bottom:.25rem;
-}
-
-table
-{
-    box-sizing: border-box;
-    border-collapse: collapse;
-}
-
-input[type="text"], input[type="password"]
-{
-    background-color: #555;
-    color: #ccc;
-    border: 0px solid #888;
-    border-bottom-width: 1px;
-}
-
-input:focus
-{
-    outline: none;
-}
