@@ -8,6 +8,8 @@ development:
   adapter: postgresql
   prepared_statments: false
   advisory_locks: false
+  username: postgres
+  password: ticket
   statement_limit: 200
 
 # Warning: The database defined as "test" will be erased and
